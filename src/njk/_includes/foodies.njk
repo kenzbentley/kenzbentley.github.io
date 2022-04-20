@@ -1,0 +1,14 @@
+<div class="row">
+  {% for foodies in foodies.foodies %}
+    <div class="col-sm-6 col-lg-4">
+      <div class="card text-dark mb-4">
+        <div class="card-body">
+          <h5 class="card-title">{{ foodies.name }}</h5>
+          <h6 class="headline">{{ foodies.description }}</h6>
+          <img src="../img/{{ foodies.image_front }}" alt="" class="img-fluid">
+          <p class="card-link"><a href="../foodies/{{ foodies.slug }}.html">{{ foodies.slug }}</a></p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

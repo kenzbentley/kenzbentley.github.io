@@ -19,6 +19,21 @@
       "fileId": "1iL0AiI8XGdR-p-xPCtuL43ymNV0EGkVlpQ5BjK4-_tM",
       "type": "doc",
       "name": "guide"
+    },
+    {
+      "fileId": "1WXDrc9AyTRJCAIpLloamCxyNfV84wFmUE_SZT-KugTo",
+      "type": "doc",
+      "name": "coffee"
+    },
+    {
+      "fileId": "10b_ca09-vLlKBkSLxuAZZ9d9oFjbgjMWIjNmKEQ2-Og",
+      "type": "doc",
+      "name": "foodies"
+    },
+    {
+      "fileId": "13ClY14XZvZ610zAG6PL-06nzej5936E-ET7-lby5iGs",
+      "type": "doc",
+      "name": "free"
     }
   ],
   "to_bake": [
@@ -35,6 +50,27 @@
       "array": "guides",
       "slug": "slug",
       "path": "guide"
+    },
+    {
+      "template": "bake-detail",
+      "data": "coffee",
+      "array": "coffee",
+      "slug": "slug",
+      "path": "coffee"
+    },
+    {
+      "template": "bake-detail",
+      "data": "foodies",
+      "array": "foodies",
+      "slug": "slug",
+      "path": "foodies"
+    },
+    {
+      "template": "bake-detail",
+      "data": "free",
+      "array": "free",
+      "slug": "slug",
+      "path": "free"
     }
   ]
 }

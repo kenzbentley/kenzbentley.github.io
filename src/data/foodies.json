@@ -1,0 +1,40 @@
+{
+  "foodies": [
+    {
+      "name": "Sam’s Bar-B-Que",
+      "slug": "sams-bbq",
+      "description": "No-frills landmark covered in memorabilia serving brisket, ribs & mutton in a straight-up manner. Some of the most tender meat you’ll try. A local hangout for black Austinites and one of the most authentic places left from East Austin’s segregated era. They prefer cash to card.",
+      "address": "2000 E 12th St, Austin, TX 78702",
+      "hours": "Su-M: 10AM-8PM // T: Closed // W-Sa: 10AM-10PM",
+      "website": "https://samsbarbque.com/",
+      "phone": "(512) 478-0378",
+      "image_front": "sams-front.jpg",
+      "image_inside": "sams-inside.jpg",
+      "image_logo": "sams-logo.jpg"
+    },
+    {
+      "name": "Fonda San Miguel",
+      "slug": "fonda-san-miguel",
+      "description": "Sophisticated takes on traditional Mexican cuisine served in a colorful, hacienda-style space. One of the best dining atmospheres in Austin and the food is delicious.",
+      "address": "2330 W N Loop Blvd, Austin, TX 78756",
+      "hours": "M-Th: 5PM-9:30PM // F-Sa: 5PM-10PM // Su: Closed",
+      "website": "https://www.fondasanmiguel.com/",
+      "phone": "(512) 459-4121",
+      "image_front": "fonda-san-miguel-front.jpg",
+      "image_inside": "fonda-san-miguel-inside.jpg",
+      "image_logo": "fonda-san-miguel-chef.jpg"
+    },
+    {
+      "name": "The Tavern",
+      "slug": "the-tavern",
+      "description": "German-influenced sports bar boasting 50 high-def TVs, a rotating beer menu & an upstairs patio. Established in 1916, it’s been serving Austin locals for over a century. Some say it’s even haunted.",
+      "address": "922 W 12th St, Austin, TX 78703",
+      "hours": "M-Su: 11AM-12AM",
+      "website": "https://www.tavernaustin.com/",
+      "phone": "(512) 320-8377",
+      "image_front": "the-tavern-outside.jpg",
+      "image_inside": "the-tavern-inside.jpg",
+      "image_logo": "the-tavern-logo.jpg"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<div class="row">
+  {% for free in free.free %}
+    <div class="col-sm-6 col-lg-4">
+      <div class="card text-dark mb-4">
+        <div class="card-body">
+          <h5 class="card-title">{{ free.name }}</h5>
+          <h6 class="headline">{{ free.description }}</h6>
+          <img src="../img/{{ free.image_front }}" alt="" class="img-fluid">
+          <p class="card-link"><a href="../free/{{ free.slug }}.html">{{ free.slug }}</a></p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
