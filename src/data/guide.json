@@ -1,0 +1,64 @@
+{
+  "guides": [
+    {
+      "name": "Coffee Shops",
+      "slug": "coffee",
+      "description": "From low key dives to coffee bar crossovers.",
+      "cover_image": "opa-front.jpg",
+      "highlight_quote": "“We’re going to keep fighting and try to relocate”",
+      "quote_author": "owner of Genuine Joes",
+      "highlight_image": "genuine-joe-logo.jpg",
+      "post": [
+        {
+          "type": "text",
+          "value": "This month we’re highlighting Genuine Joe Coffee House which has been in business for well over a decade. The place is known for its homey vibe and friendly staff, housed in a wonderfully renovated 100 year old farmhouse. Unfortunately, it will be closing its doors next month at the end of May."
+        },
+        {
+          "type": "text",
+          "value": "The landowner that Genuine Joe's leases the house from was approached by an investor and received an offer he couldn’t refuse. A high rise condo will be built in the beloved coffee shop’s place. At the moment the owner and staff of Genuine Joes are figuring out where to go next."
+        },
+        {
+          "type": "text",
+          "value": "On May 13th, they’ll be having a going away party featuring live music, art booths, and a double feature documentary about the unique place. Check them out before they go and donate to their relocation fund."
+        }
+      ]
+    },
+    {
+      "name": "Foodies",
+      "slug": "foodie",
+      "description": "From unique fine dining atmospheres to local dives and beloved hotspots. cover_image: sams-front.jpg",
+      "highlight_quote": "“You don’t need no teeth to eat my beef”",
+      "quote_author": "owner of Sams Bar-B-que",
+      "highlight_image": "sams-front.jpg",
+      "post": [
+        {
+          "type": "text",
+          "value": "This month we’re highlighting Sam’s Bar-B-Que which has been an East Austin staple for locals. The place is known for its ridiculously tender meat. It’s an important community space for black Austinites who’ve been pushed out of the Austin area due to gentrification."
+        },
+        {
+          "type": "text",
+          "value": "The owner of the place was offered millions of dollars to sell out, but ultimately refused. Many people who grew up in the once segregated East Austin are pushing back against attempts to buy them out of the city."
+        }
+      ]
+    },
+    {
+      "name": "No $$ Required",
+      "slug": "free",
+      "description": "Explore unique Austin places without breaking the bank.",
+      "cover_image": "cathedral-of-junk-front.jpg",
+      "highlight_quote": "“I don’t recognize the Austin I used to know”",
+      "quote_author": "owner / creator of Cathedral of Junk",
+      "highlight_image": "cathedral-of-junk-front.jpg",
+      "post": [
+        {
+          "type": "text",
+          "value": "This month we’re highlighting the Cathedral of Junk which has been a favorite quirky site to explore for visitors and locals alike. The place is built in it’s creator’s backyard and is constantly changing and shifting as he adds and removes elements."
+        },
+        {
+          "type": "text",
+          "value": "The place was threatened to be shut down by the city numerous times, but is still standing strong. There are no tickets you have to buy, just call, arrange a time, and make a donation to the place if you can."
+        }
+      ]
+    }
+  ]
+}

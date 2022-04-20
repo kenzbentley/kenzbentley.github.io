@@ -14,6 +14,11 @@
       "fileId": "1G-aJA1H5C-B05Hlpx2RiojYcsNNXQ5ntvUEArRZ5O6w",
       "type": "sheet",
       "name": "pirates"
+    },
+    {
+      "fileId": "1iL0AiI8XGdR-p-xPCtuL43ymNV0EGkVlpQ5BjK4-_tM",
+      "type": "doc",
+      "name": "guide"
     }
   ],
   "to_bake": [
@@ -23,6 +28,13 @@
       "array": "blogs",
       "slug": "slug",
       "path": "blog"
+    },
+    {
+      "template": "bake-guide",
+      "data": "guide",
+      "array": "guides",
+      "slug": "slug",
+      "path": "guide"
     }
   ]
 }

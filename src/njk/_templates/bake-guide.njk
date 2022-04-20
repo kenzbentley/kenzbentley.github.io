@@ -1,0 +1,23 @@
+{% extends '_templates/base.njk' %}
+{% set relative_path = "../" %}
+{% from '_macros/prose.njk' import prose %}
+
+{% block page_title %}{{ guide.name }}{% endblock %}
+
+{% block page_description %}{{ guide.description }} by the Austin Local{% endblock %}
+
+{% block content %}
+  <article class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1>{{ guide.name }}</h1>
+        <p>{{ prose(post) }}</p>
+      </div>
+      <div class="col-sm-8">
+        <img src="../img/{{ highlight_image }}" alt="" class="img-fluid mb-4">
+        <p>{{ highlight_quote }}</p>
+        <p>Sign up for our weekly news letter here</p>
+      </div>
+    </div>
+  </article>
+{% endblock %}

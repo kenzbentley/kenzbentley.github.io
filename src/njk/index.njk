@@ -1,25 +1,32 @@
 {% extends '_templates/base.njk' %}
 
-{% block page_title %}Capt. McGillicutty's Ship's Log{% endblock %}
-{% block page_description %}Catch up on our most recent pirate adventures, arg!{% endblock %}
+{% block page_title %}The Austin Local's Guidebook{% endblock %}
+{% block page_description %}Check out our guide's to hidden gems and small businesses in Austin, Texas.{% endblock %}
 
 {% block content %}
 <div class="container">
   <div class="row">
-    <div class="col-sm-12 col-md-8 offset-md-2">
-      <h1>A pirate's life is for me</h1>
-      <p>Hempen halter mizzenmast deadlights gaff pillage starboard jack lee Blimey draught. Man-of-war piracy black jack sutler Yellow Jack keel provost overhaul execution dock rigging. Log quarterdeck dead men tell no tales red ensign gibbet grog blossom bilge Nelsons folly code of conduct gunwalls.</p>
+    <div class="col-md-7">
+      <h1>A City on the Rise</h1>
+      <p>Austin is one of the fastest growing cities in America. As a result, gentrification and rapidly rising costs of living are pushing local small businesses out. How can you help to keep Austin weird? Support local small businesses over corporate owned ones.</p>
+      <p>We've made it easy! Search our guides to find the most interesting small businesses in Austin or sign up for our weekly newsletter to get unique stories and coll upcoming events throughout the city. We'll ocassionally send out a fundraiser or notification when a businesses is about to shut down.</p>
+    </div>
+    <div class="col-md-5">
+      <img src="../img/city-of-austin-logo.jpg" alt="The city of Austin's logo">
+      <p>"The best website since sliced bread."</p>
+      <p>~ Owner of Genuine Joes</p>
+      <p>Sign up for our weekly news letter <a href="">here</a></p>
     </div>
   </div>
   <div class="row">
-    {% for blog in blog.blogs %}
+    {% for guide in guide.guides %}
     <div class="col-sm-6 col-lg-4">
       <div class="card text-dark mb-4">
         <div class="card-body">
-          <h5 class="card-title">{{ blog.slug }}</h5>
-          <h6 class="headline">{{ blog.headline }}</h6>
-          <img src="img/{{ blog.image }}" alt="" class="img-fluid">
-          <p class="card-link"><a href="blog/{{ blog.slug }}.html">{{ blog.date }}</a></p>
+          <h5 class="card-title">{{ guide.name }}</h5>
+          <h6 class="headline">{{ guide.description }}</h6>
+          <img src="img/{{ guide.cover_image }}" alt="" class="img-fluid">
+          <p class="card-link"><a href="guide/{{ guide.slug }}.html">{{ guide.slug }}</a></p>
         </div>
       </div>
     </div>
