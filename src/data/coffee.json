@@ -3,7 +3,8 @@
     {
       "name": "Genuine Joe Coffee House",
       "slug": "genuine-joe",
-      "description": "The epitome of Keep Austin Genuine. A safe space welcome to all. This place is known for its homey vibes and friendly staff. Often, you can find the owner of the place starting up conversations with his customers. He rides his bike to work on the daily.",
+      "description": "Cozy neighborhood hangout offering free WiFi, friendly staff, and the occasional live music event.",
+      "body": "The epitome of Keep Austin Genuine. A safe space welcome to all. This place is known for its homey vibes and friendly staff. Often, you can find the owner of the place starting up conversations with his customers. He rides his bike to work on the daily.",
       "address": "2001 W Anderson Ln, Austin, TX 78757",
       "hours": "M-F: 7AM-10PM // Sa-Su: 8AM-10PM",
       "website": "https://genuinejoecoffee.com/",
@@ -15,7 +16,8 @@
     {
       "name": "Opa Coffee and Wine Bar",
       "slug": "opa",
-      "description": "This family owned place has some amazing greek food to snack on. It has a huge cozy outdoor and indoor space and occasional live music, making it compatible for nights out or catching up on work.",
+      "description": "Old-style classic Austin cafe and wine bar with delicious greek snacks.",
+      "body": "This family owned place has some amazing greek food to snack on. It has a huge cozy outdoor and indoor space and occasional live music, making it compatible for nights out or catching up on work.",
       "address": "2050 S Lamar Blvd, Austin, TX 78704",
       "hours": "Su-Th: 8:30AM-11PM // F-Sa: 8:30AM-12AM",
       "website": "http://www.opasola.com/",
@@ -28,6 +30,7 @@
       "name": "Cenote",
       "slug": "cenote",
       "description": "Trendy all day cafe in circa-1887 house with French pressed coffee, farm-fresh eats & free wifi.",
+      "body": "Trendy all day cafe in circa-1887 house with French pressed coffee, farm-fresh eats & free wifi.",
       "address": "1010 E Cesar Chavez St, Austin, TX 78702",
       "hours": "M-W: 7AM-4PM // Th-F: 7AM-8PM // Sa: 8AM-8PM // Su: 8AM-4PM",
       "website": "https://cenoteaustin.com/home/",

@@ -6,16 +6,16 @@
 {% block content %}
 <div class="container">
   <div class="row">
-    <div class="col-md-7">
+    <div class="cover-left col-md-7">
       <h1>A City on the Rise</h1>
       <p>Austin is one of the fastest growing cities in America. As a result, gentrification and rapidly rising costs of living are pushing local small businesses out. How can you help to keep Austin weird? Support local small businesses over corporate owned ones.</p>
       <p>We've made it easy! Search our guides to find the most interesting small businesses in Austin or sign up for our weekly newsletter to get unique stories and coll upcoming events throughout the city. We'll ocassionally send out a fundraiser or notification when a businesses is about to shut down.</p>
+      <p class="email-list">Sign up for our weekly news letter <a href="about-us.html">here</a></p>
     </div>
-    <div class="col-md-5">
-      <img src="../img/city-of-austin-logo.jpg" alt="The city of Austin's logo">
-      <p>"The best website since sliced bread."</p>
-      <p>~ Owner of Genuine Joes</p>
-      <p>Sign up for our weekly news letter <a href="">here</a></p>
+    <div class="cover-right col-md-5">
+      <img src="../img/buy-local.jpg" class="img-fluid" alt="The city of Austin's logo">
+      <p class="quote">"The best website since sliced bread."</p>
+      <p class="byline">~ Our moms</p>
     </div>
   </div>
   <div class="row">
@@ -26,7 +26,7 @@
           <h5 class="card-title">{{ guide.name }}</h5>
           <h6 class="headline">{{ guide.description }}</h6>
           <img src="img/{{ guide.cover_image }}" alt="" class="img-fluid">
-          <p class="card-link"><a href="guide/{{ guide.slug }}.html">{{ guide.slug }}</a></p>
+          <p class="card-link"><a href="guide/{{ guide.slug }}.html">click here</a></p>
         </div>
       </div>
     </div>

@@ -9,14 +9,15 @@
 {% block content %}
   <article class="container">
     <div class="row">
-      <div class="col-md-7">
+      <div class="cover-left col-md-7">
         <h1>{{ name }}</h1>
         <p>{{ prose(post) }}</p>
+        <p class="email-list">Sign up for our weekly news letter <a href="about-us.html">here</a></p>
       </div>
-      <div class="col-md-5">
+      <div class="cover-right col-md-5">
         <img src="../img/{{ highlight_image }}" alt="" class="img-fluid mb-4">
-        <p>{{ highlight_quote }}</p>
-        <p>Sign up for our weekly news letter here</p>
+        <p class="quote">{{ highlight_quote }}</p>
+        <p class="byline">{{ quote_author }}</p>
       </div>
     </div>
     <div class="row">

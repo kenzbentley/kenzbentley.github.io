@@ -1,0 +1,41 @@
+.cover-left {
+  .email-list {
+    font-family: "Reenie Beanie", cursive;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  a:link {
+    color: chocolate;
+  }
+  a:visited {
+    color: chocolate;
+  }
+  a:hover {
+    font-weight: bold;
+    color: navajowhite;
+  }
+}
+
+.cover-right {
+  .quote {
+    font-weight: bolder;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .byline {
+    font-family: 'Libre Bodoni', serif;
+    font-style: italic; 
+    font-weight: bold;
+    text-align: center;
+  }
+  img {
+    max-height: 60%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 7px solid chocolate;
+  }
+}

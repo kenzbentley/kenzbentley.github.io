@@ -1,10 +1,12 @@
 #jumbo {
-  background: url(../img/austin-sunrise.jpg) no-repeat center;
+  background: url(../img/austin-dawn.jpg) no-repeat center;
   background-size: cover;
-  color: white;
-  padding-top: 12rem
-}
-
-#jumbo {
+  padding-top: 12rem;
   margin-bottom: 30px;
+  .display-5 {
+    font-family: "Reenie Beanie", cursive;
+    font-size: 75px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
 }

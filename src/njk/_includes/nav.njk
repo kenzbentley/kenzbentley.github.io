@@ -1,21 +1,21 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ relative_path }}index.html">The Austin Local</a>
+    <a class="navbar-brand" href="{{ relative_path }}index.html">THE AUSTIN LOCAL</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="{{ relative_path }}pirate-ships.html">Pirate ships</a>
+          <a class="nav-link" href="{{ relative_path }}about-us.html">About Us</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Journal entries
+            Guides
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            {% for blog in blog.blogs %}
-            <li><a class="dropdown-item" href="{{ relative_path }}blog/{{ blog.slug }}.html">{{ blog.date }}</a></li>
+            {% for guide in guide.guides %}
+            <li><a class="dropdown-item" href="{{ relative_path }}guide/{{ guide.slug }}.html">{{ guide.slug }}</a></li>
             {% endfor %}
           </ul>
         </li>

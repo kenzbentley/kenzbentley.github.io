@@ -1,21 +1,6 @@
 {
   "files": [
     {
-      "fileId": "15EQofd_VEMY3N2hZH20Ww9pcAH9w0icc-H3li5l9SZA",
-      "type": "doc",
-      "name": "blog"
-    },
-    {
-      "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
-      "type": "sheet",
-      "name": "bookstores"
-    },
-    {
-      "fileId": "1G-aJA1H5C-B05Hlpx2RiojYcsNNXQ5ntvUEArRZ5O6w",
-      "type": "sheet",
-      "name": "pirates"
-    },
-    {
       "fileId": "1iL0AiI8XGdR-p-xPCtuL43ymNV0EGkVlpQ5BjK4-_tM",
       "type": "doc",
       "name": "guide"
@@ -37,13 +22,6 @@
     }
   ],
   "to_bake": [
-    {
-      "template": "bake-blog",
-      "data": "blog",
-      "array": "blogs",
-      "slug": "slug",
-      "path": "blog"
-    },
     {
       "template": "bake-guide",
       "data": "guide",

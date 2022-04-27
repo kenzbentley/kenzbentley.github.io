@@ -1,0 +1,21 @@
+.card {
+  background-color: rgba($color: chocolate, $alpha: 1.0);
+  .card-title { 
+    font-family: "Libre Bodoni", serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .headline {
+    color: white;
+  }
+  a:link {
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+  a:hover {
+    font-weight: bold;
+    color: navajowhite;
+  }
+}

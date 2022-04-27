@@ -3,35 +3,38 @@
   <!-- A Intro to Coding for Journalists class project -->
   <head>
     <title>The Austin Local | Free Barton Springs</title>
-    <meta name="description" content="Barton Springs is a classic Austin hot spot, especially during the hot summer months. The water here is a constant 72 degrees. The natural spring is home to an endangered species of blind salamander. While tickets are usually on sale for $5, if you show up from 5-8AM / 5-9AM depending on the day or 8-10PM you can get in for free. Life guards are off duty during these times. Just remember to check the hours online, because they change pretty frequently. However, another free option is taking a trail to the left of the park entrance where people swim for free in the run off. While the park itself doesn’t allow dogs or alcohol, free Barton is an extremely lively and dog friendly place. by the Austin Local">
+    <meta name="description" content="Beloved spring-fed pool maintaining a 68 degree Fahrenheit temperature year-round with lifeguards on duty. by the Austin Local">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@700&family=Montserrat&family=Permanent+Marker&family=Reenie+Beanie&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">The Austin Local</a>
+    <a class="navbar-brand" href="../index.html">THE AUSTIN LOCAL</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="../pirate-ships.html">Pirate ships</a>
+          <a class="nav-link" href="../about-us.html">About Us</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Journal entries
+            Guides
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             
-            <li><a class="dropdown-item" href="../blog/2019-10-18.html">Oct. 18, 2019</a></li>
+            <li><a class="dropdown-item" href="../guide/coffee.html">coffee</a></li>
             
-            <li><a class="dropdown-item" href="../blog/2019-10-19.html">Oct. 19, 2019</a></li>
+            <li><a class="dropdown-item" href="../guide/foodies.html">foodies</a></li>
             
-            <li><a class="dropdown-item" href="../blog/2022-04-06.html">April 06, 2022</a></li>
+            <li><a class="dropdown-item" href="../guide/free.html">free</a></li>
             
           </ul>
         </li>
@@ -49,16 +52,39 @@
     
   <article class="container">
     <div class="row">
-      <div class="col-md-7">
+      <div class="cover-left col-md-7">
         <h1>Free Barton Springs</h1>
         <p>Barton Springs is a classic Austin hot spot, especially during the hot summer months. The water here is a constant 72 degrees. The natural spring is home to an endangered species of blind salamander. While tickets are usually on sale for $5, if you show up from 5-8AM / 5-9AM depending on the day or 8-10PM you can get in for free. Life guards are off duty during these times. Just remember to check the hours online, because they change pretty frequently. However, another free option is taking a trail to the left of the park entrance where people swim for free in the run off. While the park itself doesn’t allow dogs or alcohol, free Barton is an extremely lively and dog friendly place.</p>
         <p>F-W: 5AM-10PM // Th: 5-9AM, 7-10PM</p>
         <p>2201 William Barton Dr, Austin, TX 78746</p>
-      </div>
-      <div class="col-md-5">
-        <img src="../img/free-barton-front.jpg" alt="" class="img-fluid mb-4">
-        <p>https://www.austintexas.gov/department/barton-springs-pool</p>
+        <p><a href="https://www.austintexas.gov/department/barton-springs-pool">https://www.austintexas.gov/department/barton-springs-pool</a></p>
         <p>(512) 974-6300</p>
+      </div>
+      <div class="cover-right col-md-5">
+        <img src="../img/free-barton-front.jpg" alt="" class="img-fluid mb-4">
+      </div>
+    </div>
+    <div class="row">
+      <div id="carouselExampleCaptions" class="carousel slide col-md-8 offset-md-2" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/free-barton-back.jpg" class="d-block w-100" alt="Giant squid-like animal devours a pirate ship">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/barton-logo.jpg" class="d-block w-100" alt="Giant tentacles raise a pirate ship out of the water">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/free-barton-front.jpg" class="d-block w-100" alt="A man on a small boat fights a squid-like animal with an oar.">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   </div>
@@ -68,7 +94,7 @@
     <footer>
 <p id="legal" class="center-block text-center">
   <small>&copy; <span class="copyright-year"></span>
-  A class project by First Last.
+  A class project by Mckenzie Bentley.
 </p>
 </footer>
 

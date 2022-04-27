@@ -3,7 +3,8 @@
     {
       "name": "Free Barton Springs",
       "slug": "barton-springs",
-      "description": "Barton Springs is a classic Austin hot spot, especially during the hot summer months. The water here is a constant 72 degrees. The natural spring is home to an endangered species of blind salamander. While tickets are usually on sale for $5, if you show up from 5-8AM / 5-9AM depending on the day or 8-10PM you can get in for free. Life guards are off duty during these times. Just remember to check the hours online, because they change pretty frequently. However, another free option is taking a trail to the left of the park entrance where people swim for free in the run off. While the park itself doesn’t allow dogs or alcohol, free Barton is an extremely lively and dog friendly place.",
+      "description": "Beloved spring-fed pool maintaining a 68 degree Fahrenheit temperature year-round with lifeguards on duty.",
+      "body": "Barton Springs is a classic Austin hot spot, especially during the hot summer months. The water here is a constant 72 degrees. The natural spring is home to an endangered species of blind salamander. While tickets are usually on sale for $5, if you show up from 5-8AM / 5-9AM depending on the day or 8-10PM you can get in for free. Life guards are off duty during these times. Just remember to check the hours online, because they change pretty frequently. However, another free option is taking a trail to the left of the park entrance where people swim for free in the run off. While the park itself doesn’t allow dogs or alcohol, free Barton is an extremely lively and dog friendly place.",
       "address": "2201 William Barton Dr, Austin, TX 78746",
       "hours": "F-W: 5AM-10PM // Th: 5-9AM, 7-10PM",
       "website": "https://www.austintexas.gov/department/barton-springs-pool",
@@ -15,7 +16,8 @@
     {
       "name": "Cathedral of Junk",
       "slug": "cathedral-of-junk",
-      "description": "This whimsical, multilevel shelter is made with 60+ tons of used furniture, home goods & other junk. To make it even more quirky, it’s built in someone’s backyard. There are no tickets, but be sure to call ahead of time because at the end of the day it is still someone’s house. Donations and tips are always welcome.",
+      "description": "A whimsical, multilevel shelter made with 60+ tons of used furniture, home goods & other junk.",
+      "body": "This whimsical, multilevel shelter is made with 60+ tons of used furniture, home goods & other junk. To make it even more quirky, it’s built in someone’s backyard. There are no tickets, but be sure to call ahead of time because at the end of the day it is still someone’s house. Donations and tips are always welcome.",
       "address": "4422 Lareina Dr, Austin, TX 78745",
       "hours": "Call to make an appointment.",
       "website": "https://www.roadsideamerica.com/story/7816",
@@ -27,7 +29,8 @@
     {
       "name": "Waterloo Records",
       "slug": "waterloo-records",
-      "description": "This vinyl records store has been around for over 40 years. It’s a longtime hot spot with in-store performances, local artist compilations & concert ticket sales. You can even bring in gently used vinyls, CDs, and cassette tapes in exchange for cash or store credit.",
+      "description": "Longtime hot spot with in-store performances, local artist compilations & concert ticket sales.",
+      "body": "This vinyl records store has been around for over 40 years. It’s a longtime hot spot with in-store performances, local artist compilations & concert ticket sales. You can even bring in gently used vinyls, CDs, and cassette tapes in exchange for cash or store credit.",
       "address": "600 N Lamar Blvd, Austin, TX 78703",
       "hours": "M-Su: 10AM-9PM",
       "website": "https://waterloorecords.com/",
